@@ -55,14 +55,15 @@ ul {
   transition: bottom 0.3s, transform 0.3s 0.15s;
 }
 .menu-list {
+  margin-top: 45px;
   top: 0;
   left: 0;
   position: absolute;
   display: none;
   gap: 12px;
-  padding: 42px 0;
+  padding: 72px 0;
   margin: 0;
-  background: rgba(255, 148, 36, 0.8);
+  background: rgba(255, 148, 36, 0.95);
   list-style-type: none;
   transform: translateX(-100%);
   transition: 0.3s;
@@ -121,7 +122,9 @@ button {
   width: 312px;
 }
 /* oprtion */
-
+.section__list{
+  padding-top:5px;
+}
 #delivery-time option {
   display: flex;
   text-align: center;
@@ -1157,7 +1160,7 @@ button {
 
   .burger {
     display: block;
-    top: 2.7rem;
+    top: 0.5rem;
   }
 
   .cart__list {
@@ -1482,8 +1485,8 @@ button {
   .burger {
     z-index: 5;
     display: block;
-    top: 2.7rem;
-    left: 0.5rem;
+    top: 1.5rem;
+    left: 1.5rem;
   }
 
   .dostavka {
